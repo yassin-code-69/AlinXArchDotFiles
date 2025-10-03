@@ -1,0 +1,73 @@
+*.png
+*.jpg
+*.jpeg
+
+ txt
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# Ignore backup files
+*.bak
+*.backup
+*.orig
+*.old
+
+# Ignore log files
+*.log
+
+# Ignore compiled or generated files
+*.pyc
+*.pyo
+__pycache__/
+*.class
+
+# Ignore editor temporary files
+*.sw?
+*~
+*.undo
+*.sublime-workspace
+*.sublime-project
+
+# Ignore nvim git folder inside nvim config
+nvim/.config/nvim/.git/
+
+# Ignore any installed plugin lock files if you regenerate them
+nvim/.config/nvim/lazy-lock.json
+
+# Ignore caches if any
+.cache/
+.cache/
+.tmp/
+
+# Ignore OS-specific stuff
+ehthumbs.db
+desktop.ini
+
+# Ignore cava generated shaders cache
+cava/.config/cava/shaders/*.o
+
+# Ignore btop generated backups (if you don't want to track your backup)
+btop/.config/btop/*.back
+
+# Ignore scripts generated temp files
+fish/.config/fish/scripts/*.tmp
+
+# Optional: ignore starship history (if it exists)
+starship/.config/starship-history
+
+# You can explicitly track config folders
+!*/.config/**
+
+# Ignore images in all nested directories
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.bmp
+**/*.tiff
+**/*.webp
+**/*.svg

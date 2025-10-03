@@ -1,0 +1,482 @@
+.
+├── cava
+│   └── .config
+│       └── cava
+│           ├── config
+│           ├── shaders
+│           │   ├── bar_spectrum.frag
+│           │   ├── eye_of_phi.frag
+│           │   ├── northern_lights.frag
+│           │   ├── pass_through.vert
+│           │   ├── spectrogram.frag
+│           │   └── winamp_line_style_spectrum.frag
+│           └── themes
+│               ├── solarized_dark
+│               └── tricolor
+├── fastfetch
+│   └── .config
+│       └── fastfetch
+│           ├── config.jsonc
+│           └── logo
+│               ├── agk_clan.icon
+│               ├── aisaka.icon
+│               ├── geass.icon
+│               ├── hyprland.icon
+│               ├── loli.icon
+│               ├── pochita.icon
+│               └── ryuzaki.icon
+├── fish
+│   └── .config
+│       └── fish
+│           ├── completions
+│           │   └── hyde-shell.fish
+│           ├── conf.d
+│           │   └── hyde.fish
+│           ├── config.fish
+│           ├── fish_variables
+│           ├── functions
+│           │   ├── bind_M_n_history.fish
+│           │   ├── fish_prompt.fish
+│           │   ├── fzf
+│           │   │   ├── ffcd.fish
+│           │   │   ├── ffch.fish
+│           │   │   ├── ffec.fish
+│           │   │   └── ffe.fish
+│           │   └── ytdw.fish
+│           └── user.fish
+├── .gitignore
+├── hyde
+│   └── .config
+│       └── hyde
+│           ├── config.toml
+│           ├── themes
+│           │   ├── Catppuccin Latte
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── logo
+│           │   │   │   └── catppuccinLogo.png
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Catppuccin Latte/wallpapers/abstract_blured.jpg
+│           │   │   ├── wallpapers
+│           │   │   │   ├── abstract_blured.jpg
+│           │   │   │   ├── cat_minimal.jpg
+│           │   │   │   ├── chainsaw_angel_lake.jpg
+│           │   │   │   ├── delorean_pastel.png
+│           │   │   │   ├── flying_out.png
+│           │   │   │   ├── gameboy.png
+│           │   │   │   ├── jormungandr.jpg
+│           │   │   │   ├── reindeer_forest.jpg
+│           │   │   │   ├── rocket_launch.png
+│           │   │   │   ├── samurai_bebop.png
+│           │   │   │   ├── samurai_strike.jpg
+│           │   │   │   ├── sekiro.jpg
+│           │   │   │   ├── shaded_landscape.jpg
+│           │   │   │   ├── waifu_angel.jpg
+│           │   │   │   └── waifu_jasmin.jpg
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Catppuccin Latte/wallpapers/waifu_angel.jpg
+│           │   │   ├── wall.swww.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Catppuccin Latte/wallpapers/waifu_jasmin.jpg
+│           │   │   └── waybar.theme
+│           │   ├── Catppuccin Mocha
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── logo
+│           │   │   │   └── catppuccinLogo.png
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Catppuccin Mocha/wallpapers/1 rain_world.png
+│           │   │   ├── wallpapers
+│           │   │   │   ├── 1 rain_world.png
+│           │   │   │   ├── 2 rain_world.png
+│           │   │   │   ├── 3 rain_world.png
+│           │   │   │   ├── aesthetic_deer.png
+│           │   │   │   ├── apex_octane.jpg
+│           │   │   │   ├── black_hole_by_kurzgesagt.png
+│           │   │   │   ├── boat_abondoned.jpg
+│           │   │   │   ├── cat_leaves.png
+│           │   │   │   ├── demon-slayer-3840x2160-17630.jpeg
+│           │   │   │   ├── escape_velocity.jpg
+│           │   │   │   ├── evening_sky.png
+│           │   │   │   ├── firewatch.jpg
+│           │   │   │   ├── forest_dark_winter.jpg
+│           │   │   │   ├── goku-black-and-3840x2160-20871.png
+│           │   │   │   ├── hanged_man_tree.jpg
+│           │   │   │   ├── Hello.jpg
+│           │   │   │   ├── kanao-tsuyuri-3840x2160-23645.jpg
+│           │   │   │   ├── muichiro-tokito-3840x2160-22499.png
+│           │   │   │   ├── muichiro-tokito-3840x2160-22506.png
+│           │   │   │   ├── muichiro-tokito-3840x2160-23644.jpg
+│           │   │   │   ├── neon-anime-girl-3840x2160-16062.png
+│           │   │   │   ├── rebellious_tower.png
+│           │   │   │   ├── sasuke-uchiha-naruto-minimal-art-amoled-black-background-3840x2160-8859.png
+│           │   │   │   ├── switch_swirl.jpg
+│           │   │   │   ├── tanjiro-kamado-red-3840x2160-22577.png
+│           │   │   │   └── wallpaperflare.com_wallpaper (2).jpg
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Catppuccin Mocha/wallpapers/muichiro-tokito-3840x2160-22499.png
+│           │   │   ├── wall.swww.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Catppuccin Mocha/wallpapers/1 rain_world.png
+│           │   │   └── waybar.theme
+│           │   ├── Decay Green
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Decay Green/wallpapers/arcade_decay_red.png
+│           │   │   ├── wallpapers
+│           │   │   │   ├── arcade_decay_red.png
+│           │   │   │   ├── aurora_borealis.png
+│           │   │   │   ├── blue_swirl.png
+│           │   │   │   ├── moments_before_desk.png
+│           │   │   │   ├── night_city.png
+│           │   │   │   └── relaxed_mario.png
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Decay Green/wallpapers/moments_before_desk.png
+│           │   │   └── waybar.theme
+│           │   ├── Edge Runner
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Edge Runner/wallpapers/cyberpunk_dave.png
+│           │   │   ├── wallpapers
+│           │   │   │   ├── cyberpunk_dave.png
+│           │   │   │   ├── david.jpg
+│           │   │   │   ├── lucy_1.jpg
+│           │   │   │   ├── lucy_2.png
+│           │   │   │   └── lucy_rebecca.jpg
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Edge Runner/wallpapers/david.jpg
+│           │   │   └── waybar.theme
+│           │   ├── Frosted Glass
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Frosted Glass/wallpapers/blue_desert.png
+│           │   │   ├── wallpapers
+│           │   │   │   ├── blue_desert.png
+│           │   │   │   ├── cloudy_crescent.png
+│           │   │   │   ├── cloudy_mountain.png
+│           │   │   │   ├── lake_mountain.jpg
+│           │   │   │   ├── min_forest.jpg
+│           │   │   │   └── teal_mountain.png
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Frosted Glass/wallpapers/cloudy_crescent.png
+│           │   │   └── waybar.theme
+│           │   ├── Graphite Mono
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── theme.dcol
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Graphite Mono/wallpapers/chainsawman_sketch.png
+│           │   │   ├── wallpapers
+│           │   │   │   ├── chainsawman_sketch.png
+│           │   │   │   ├── gojo.png
+│           │   │   │   ├── japan_lake.jpg
+│           │   │   │   ├── limbo.jpg
+│           │   │   │   ├── min_mountain.jpg
+│           │   │   │   ├── mountain_snow.jpg
+│           │   │   │   ├── nier_2b.jpg
+│           │   │   │   ├── nier_mech.jpg
+│           │   │   │   ├── rocket.jpg
+│           │   │   │   ├── spring_bloom.jpg
+│           │   │   │   └── wall_paint.jpg
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Graphite Mono/wallpapers/gojo.png
+│           │   │   ├── wall.swww.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Graphite Mono/wallpapers/chainsawman_sketch.png
+│           │   │   └── waybar.theme
+│           │   ├── Gruvbox Retro
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Gruvbox Retro/wallpapers/finalizer.png
+│           │   │   ├── wallpapers
+│           │   │   │   ├── finalizer.png
+│           │   │   │   ├── future_town.jpg
+│           │   │   │   ├── lady.png
+│           │   │   │   ├── minimal_squares.png
+│           │   │   │   ├── misty_forest.jpg
+│           │   │   │   ├── night_moon.png
+│           │   │   │   ├── patterns.jpg
+│           │   │   │   ├── street.png
+│           │   │   │   └── wall.jpg
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Gruvbox Retro/wallpapers/wall.jpg
+│           │   │   └── waybar.theme
+│           │   ├── Material Sakura
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Material Sakura/wallpapers/material_pastel_1.jpg
+│           │   │   ├── wallpapers
+│           │   │   │   ├── material_pastel_1.jpg
+│           │   │   │   ├── material_pastel_2.jpg
+│           │   │   │   ├── material_pastel_3.jpg
+│           │   │   │   ├── material_pastel_4.jpg
+│           │   │   │   ├── material_pastel_5.jpg
+│           │   │   │   ├── material_pastel_6.jpg
+│           │   │   │   ├── material_pastel_7.jpg
+│           │   │   │   └── material_pastel_8.jpg
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Material Sakura/wallpapers/material_pastel_6.jpg
+│           │   │   ├── wall.swww.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Material Sakura/wallpapers/material_pastel_1.jpg
+│           │   │   └── waybar.theme
+│           │   ├── Nordic Blue
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Nordic Blue/wallpapers/forest.jpg
+│           │   │   ├── wallpapers
+│           │   │   │   ├── forest.jpg
+│           │   │   │   ├── mountains.jpg
+│           │   │   │   ├── Nordic-Heroin.png
+│           │   │   │   ├── range.png
+│           │   │   │   ├── sunset.jpg
+│           │   │   │   ├── underwater.png
+│           │   │   │   └── wild.png
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Nordic Blue/wallpapers/mountains.jpg
+│           │   │   ├── wall.swww.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Nordic Blue/wallpapers/forest.jpg
+│           │   │   └── waybar.theme
+│           │   ├── Rosé Pine
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Rosé Pine/wallpapers/Anime-Girl1.png
+│           │   │   ├── wallpapers
+│           │   │   │   ├── Anime-Girl1.png
+│           │   │   │   ├── Anime-Girl-Night-Sky.jpg
+│           │   │   │   ├── Anime-Purple-eyes.png
+│           │   │   │   ├── Arch-chan_to.png
+│           │   │   │   ├── burning_cherry.jpeg
+│           │   │   │   ├── chainsaw_makima.png
+│           │   │   │   ├── cyberpunk.png
+│           │   │   │   ├── dark_purple_kimono.png
+│           │   │   │   ├── demon-slayer-3840x2160-17630.jpeg
+│           │   │   │   ├── ferris_wheel.jpg
+│           │   │   │   ├── goku-black-and-3840x2160-20871.png
+│           │   │   │   ├── japan_mountain_pink.jpg
+│           │   │   │   ├── japan_tower_pink.jpg
+│           │   │   │   ├── kanao-tsuyuri-3840x2160-23645.jpg
+│           │   │   │   ├── lakeside_sunset.png
+│           │   │   │   ├── mima.jpeg
+│           │   │   │   ├── mountain_dragon_pink.jpg
+│           │   │   │   ├── mountain_sunset.jpg
+│           │   │   │   ├── muichiro-tokito-3840x2160-22499.png
+│           │   │   │   ├── muichiro-tokito-3840x2160-22506.png
+│           │   │   │   ├── muichiro-tokito-3840x2160-23644.jpg
+│           │   │   │   ├── mushrooms_1.png
+│           │   │   │   ├── mushrooms_2.png
+│           │   │   │   ├── mushrooms_3.png
+│           │   │   │   ├── mushrooms_4.png
+│           │   │   │   ├── neon-anime-girl-3840x2160-16062.png
+│           │   │   │   ├── nimbus.gif
+│           │   │   │   ├── red_purple.jpg
+│           │   │   │   ├── sasuke-uchiha-naruto-minimal-art-amoled-black-background-3840x2160-8859.png
+│           │   │   │   ├── tanjiro-kamado-red-3840x2160-22577.png
+│           │   │   │   ├── Tower-Night.png
+│           │   │   │   ├── waifu_pink.png
+│           │   │   │   ├── wallpaperflare.com_wallpaper (2).jpg
+│           │   │   │   └── warm_afternoon.jpeg
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Rosé Pine/wallpapers/muichiro-tokito-3840x2160-22499.png
+│           │   │   ├── wall.swww.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Rosé Pine/wallpapers/Anime-Girl1.png
+│           │   │   └── waybar.theme
+│           │   ├── Synth Wave
+│           │   │   ├── hypr.theme
+│           │   │   ├── kitty.theme
+│           │   │   ├── kvantum
+│           │   │   │   ├── kvantum.theme
+│           │   │   │   └── kvconfig.theme
+│           │   │   ├── rofi.theme
+│           │   │   ├── .sort
+│           │   │   ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Synth Wave/wallpapers/beach.jpg
+│           │   │   ├── wallpapers
+│           │   │   │   ├── beach.jpg
+│           │   │   │   ├── glitch fox.png
+│           │   │   │   ├── palm trees.jpg
+│           │   │   │   └── waves.jpg
+│           │   │   ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Synth Wave/wallpapers/waves.jpg
+│           │   │   ├── wall.swww.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Synth Wave/wallpapers/beach.jpg
+│           │   │   └── waybar.theme
+│           │   └── Tokyo Night
+│           │       ├── hypr.theme
+│           │       ├── kitty.theme
+│           │       ├── kvantum
+│           │       │   ├── kvantum.theme
+│           │       │   └── kvconfig.theme
+│           │       ├── rofi.theme
+│           │       ├── .sort
+│           │       ├── wall.hyprlock.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Tokyo Night/wallpapers/cat_lofi_cafe.jpg
+│           │       ├── wallpapers
+│           │       │   ├── cat_lofi_cafe.jpg
+│           │       │   ├── edger_lucy_neon.jpg
+│           │       │   ├── gas_station.gif
+│           │       │   ├── lowpoly_street.png
+│           │       │   ├── street.gif
+│           │       │   └── tokyo_pink.png
+│           │       ├── wall.set -> /home/alin/dotfiles/hyde/.config/hyde/themes/Tokyo Night/wallpapers/gas_station.gif
+│           │       ├── wall.swww.png -> /home/alin/dotfiles/hyde/.config/hyde/themes/Tokyo Night/wallpapers/cat_lofi_cafe.jpg
+│           │       └── waybar.theme
+│           └── wallbash
+│               ├── always
+│               │   ├── cava.dcol
+│               │   ├── chrome.dcol
+│               │   ├── discord.dcol
+│               │   ├── spotify.dcol
+│               │   └── vim.dcol
+│               ├── README.md
+│               ├── scripts
+│               │   ├── cava.sh
+│               │   ├── chrome.sh
+│               │   ├── code.sh
+│               │   ├── discord.sh
+│               │   └── spotify.sh
+│               └── theme
+│                   └── code.dcol
+├── hypr
+│   └── .config
+│       └── hypr
+│           ├── animations
+│           │   ├── classic.conf
+│           │   ├── diablo-1.conf
+│           │   ├── diablo-2.conf
+│           │   ├── disable.conf
+│           │   ├── dynamic.conf
+│           │   ├── end4.conf
+│           │   ├── fast.conf
+│           │   ├── high.conf
+│           │   ├── ja.conf
+│           │   ├── LimeFrenzy.conf
+│           │   ├── me-1.conf
+│           │   ├── me-2.conf
+│           │   ├── minimal-1.conf
+│           │   ├── minimal-2.conf
+│           │   ├── moving.conf
+│           │   ├── optimized.conf
+│           │   ├── standard.conf
+│           │   ├── theme.conf
+│           │   └── vertical.conf
+│           ├── animations.conf
+│           ├── hypridle.conf
+│           ├── hyprland.conf
+│           ├── hyprlock
+│           │   ├── Anurati.conf
+│           │   ├── Arfan on Clouds.conf
+│           │   ├── greetd.conf
+│           │   ├── greetd-wallbash.conf
+│           │   ├── HyDE.conf
+│           │   ├── IBM Plex.conf
+│           │   ├── IMB Xtented.conf
+│           │   ├── SF Pro.conf
+│           │   └── theme.conf
+│           ├── hyprlock.conf
+│           ├── keybindings.conf
+│           ├── monitors.conf
+│           ├── pyprland.toml
+│           ├── shaders
+│           │   ├── blue-light-filter.frag
+│           │   ├── color-vision.frag
+│           │   ├── .compiled.cache.glsl
+│           │   ├── custom.frag
+│           │   ├── disable.frag
+│           │   ├── .gitignore
+│           │   ├── grayscale.frag
+│           │   ├── invert-colors.frag
+│           │   ├── oled-saver.frag
+│           │   ├── paper.frag
+│           │   ├── vibrance.frag
+│           │   ├── wallbash.frag
+│           │   └── wallbash.inc
+│           ├── shaders.conf
+│           ├── themes
+│           │   ├── colors.conf
+│           │   ├── theme.conf
+│           │   └── wallbash.conf
+│           ├── userprefs.conf
+│           ├── windowrules.conf
+│           ├── workflows
+│           │   ├── default.conf
+│           │   ├── editing.conf
+│           │   ├── gaming.conf
+│           │   ├── .gitignore
+│           │   ├── powersaver.conf
+│           │   └── snappy.conf
+│           ├── workflows.conf
+│           └── workspaces.conf
+├── kitty
+│   └── .config
+│       └── kitty
+│           ├── hyde.conf
+│           ├── kitty.conf
+│           └── theme.conf
+├── nvim
+│   └── .config
+│       └── nvim
+│           ├── doc
+│           │   ├── kickstart.txt
+│           │   └── tags
+│           ├── init.lua
+│           ├── lazy-lock.json
+│           ├── lua
+│           │   ├── custom
+│           │   │   └── plugins
+│           │   │       └── init.lua
+│           │   └── kickstart
+│           │       ├── health.lua
+│           │       └── plugins
+│           │           ├── autopairs.lua
+│           │           ├── debug.lua
+│           │           ├── gitsigns.lua
+│           │           ├── indent_line.lua
+│           │           ├── lint.lua
+│           │           └── neo-tree.lua
+│           └── .stylua.toml
+├── one.txt
+├── rofi
+│   └── .config
+│       └── rofi
+│           └── theme.rasi
+├── smart_stow.sh
+└── waybar
+    └── .config
+        └── waybar
+            ├── config.jsonc
+            ├── includes
+            │   ├── border-radius.css
+            │   ├── global.css
+            │   └── includes.json
+            ├── layouts
+            │   └── backup
+            │       └── unknown_20250911_003841.jsonc
+            ├── style.css
+            ├── theme.css
+            └── user-style.css
+
+92 directories, 388 files
